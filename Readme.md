@@ -24,8 +24,8 @@ The library supports the following operations:
 ## How to start the project
 
 1. Clone the repository:
-   ``bash
-   git clone https://github.com/yourusername/football-scoreboard.git
+   ```bash
+   git clone https://github.com/AlexKozel/FootballLiveScoreBoard.git
     ```
 
 2. Navigate to the project directory:
