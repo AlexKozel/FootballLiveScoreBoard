@@ -51,7 +51,6 @@ The library supports the following operations:
       // Next, the matches are added and updated in the same way
          }
       }
-    ```
 
 ## Dependencies
 
