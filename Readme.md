@@ -30,7 +30,7 @@ The library supports the following operations:
 
 2. Navigate to the project directory:
     ```bash
-    cd football-scoreboard
+    cd FootballLiveScoreBoard
     ```
 
 3. Build the project using Maven:
@@ -40,16 +40,16 @@ The library supports the following operations:
 
 4. Run the demonstration:
     - Use the `Main` class to operate the scoreboard. Example usage:
-      ``java
+      ```java
       public class Main {
       public static void main(String[] args) {
       Scoreboard scoreboard = new Scoreboard();
-      scoreboard.startMatch(‘Mexico’, ‘Canada’);
-      scoreboard.updateScore(‘Mexico’, ‘Canada’, 0, 5);
-      scoreboard.startMatch(‘Spain’, ‘Brazil’);
-      scoreboard.updateScore(‘Spain’, ‘Brazil’, 10, 2);
+      scoreboard.startMatch("Mexico", "Canada");
+      scoreboard.updateScore("Mexico", "Canada", 0, 5);
+      scoreboard.startMatch("Spain", "Brazil");
+      scoreboard.updateScore("Spain", "Brazil", 10, 2);
       // Next, the matches are added and updated in the same way
-      }
+         }
       }
     ```
 
